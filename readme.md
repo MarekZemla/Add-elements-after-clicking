@@ -1,6 +1,6 @@
 ### This is a simple program written mainly in JS, the task of which is to display numbered elements (squares). Every fifth element is a white circle.
 
-### [click here to see how it works](https://marekzemla.github.io/Project-1/)
+### [click here to see how it works](https://marekzemla.github.io/Add-elements-after-clicking/)
 ### // 1. 
 First, I get the item I will work on ... in this case using the querySelector method while assigning it to a constant variable. This method searches for the first item and stops searching after finding the first ...
 ### // 2.
