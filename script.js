@@ -1,16 +1,16 @@
-//1.  Najpierw pobieram element na którym będę pracował...w tym przypadku przy użyciu metody querySelector, jednocześnie przypisując go do zmiennej stałej const. Metoda ta wyszukuje pierwszy element i przestaje szukac dalej po znalezieniu pierwszego...
-//2.  za pomocą console.log sprawdzam w consoli czy dobrze wpisałem metodę i czy dany element został znaleziolny...
-//  console.log(btn)
+// 1. First, I get the item I will work on ... in this case using the querySelector method while assigning it to a constant variable. This method searches for the first item and stops searching after finding the first ...
+// 2. using console.log, I check in the console if I entered the method correctly and whether the item was found ...
+// console.log (btn)
 
-// 3. Nastepnie ustawiam nasłuchiwanie za pomocą addEventListener. Zawsze na końcy pzzed znacznikiem zamykającym BODY.  Ustawiam działanie na click i ustawiam funkcję zadeklarowaną zmienną, którą wcześniej stworzyłem i do której przypisałem od razu funkcję, która ma się wykonać. Musi być ona stworzona powyżej metody nasłuchiwania aby interpreter wcześniej ją odnalazł i mógł przypisać ją wewnatrz metody poniżej. 
+// 3. Then I set up listening with addEventListener. Always at the ends before the BODY closing tag. I set the action to click and set the function to the declared variable that I previously created and to which I assigned the function to be performed. It has to be created above the listening method so that the interpreter finds it earlier and can assign it inside the method below.
 
- // 4. Tworze nowy element za pomocą metody zmiennej const i za pomocą document.createElement() wpisuje w nawiasach jaki ma być to element. W tym przypadku bedzie to div
-//  5. Za pomocą document.body.appendChild() dodaję diva do strony. 
-// 6. Tworzę licznik przy użyciu zmiennej let number która nie moze być const ponieważ wykonanie funkcji musi ją aktualizować, oraz któa musi być poza funkcja aby jej zawartośc nie była kasowana za każdym razem gdy funkcja się wykona. Następnie wewnatrz funkcji przypisuję właściwość textContent do diva i odnoszę ją do wartości tej zmiennej, która jest poza tą funkcją.
+ // 4. Create a new element with the method of the const variable and with document.createElement () puts the element in parentheses. In this case it will be div
+// 5. With document.body.appendChild () I add a div to the page.
+// 6. I create a counter using let number which cannot be const because execution of the function must update it, and which must be outside the function so that its contents are not reset every time the function executes. Then, inside the function, I assign the textContent property to the diva and refer it to the value of that variable that is outside of that function.
 
-// 7. INSTRUKCJA WARUNKOWA if, która będzie odnosiła się do co piątego elementu div.
-// W tym celu wykorzystuję metodę dzielenia MODULO. Dzielę w niej zmienną number przez 5 , co daje mi resztę 0. Dzięki temu w metodzie modulo zapisując ,że jeśli nie ma reszty to div ma przypisywaną clase circle, co daje mi co piąty element div, ponieważ 5/5 daje 0 i nie ma reszty, 10/5 daje wynik 2, ale nie daje zadnej resty i tak dalej co pięć. 
-// Inaczej to określając iloraz danej liczby podzielony przez siebie nie daje reszty z dzielenia. 
+// 7. CONDITIONAL if STATEMENT which will refer to every fifth div element.
+// 8. For this I use the MODULO division method. I divide the variable number by 5 in it, which gives me a remainder of 0. That way in modulo method saying that if there is no remainder then div is assigned to a clase circle, which gives me every fifth div element, because 5/5 is 0 and there is no rest, 10/5 is 2 but no rest, and so on every five.
+// 9.  Otherwise specifying the quotient of a given number divided by itself does not give the remainder of the division.
 
 const btn = document.querySelector("button");
 let number = 1;
