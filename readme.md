@@ -1,3 +1,4 @@
+## [click to open](https://marekzemla.github.io/Project-1/)
 ### // 1. 
 First, I get the item I will work on ... in this case using the querySelector method while assigning it to a constant variable. This method searches for the first item and stops searching after finding the first ...
 ### // 2.
