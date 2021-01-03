@@ -9,8 +9,7 @@
 // 6. I create a counter using let number which cannot be const because execution of the function must update it, and which must be outside the function so that its contents are not reset every time the function executes. Then, inside the function, I assign the textContent property to the diva and refer it to the value of that variable that is outside of that function.
 
 // 7. CONDITIONAL if STATEMENT which will refer to every fifth div element.
-// 8. For this I use the MODULO division method. I divide the variable number by 5 in it, which gives me a remainder of 0. That way in modulo method saying that if there is no remainder then div is assigned to a clase circle, which gives me every fifth div element, because 5/5 is 0 and there is no rest, 10/5 is 2 but no rest, and so on every five.
-// 9.  Otherwise specifying the quotient of a given number divided by itself does not give the remainder of the division.
+// 8. For this I use the MODULO division method. I divide the variable number by 5 in it, which gives me a remainder of 0. That way in modulo method saying that if there is no remainder then div is assigned to a clase circle, which gives me every fifth div element, because 5/5 is 0 and there is no rest, 10/5 is 2 but no rest, and so on every five.Otherwise specifying the quotient of a given number divided by itself does not give the remainder of the division.
 
 const btn = document.querySelector("button");
 let number = 1;
